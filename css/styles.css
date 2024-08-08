@@ -11029,7 +11029,7 @@ p {
 }
 
 /* agregado por mi */
-.fixed-right-button {
+/*.fixed-right-button {
   position: fixed;
   right: 3%;
   top: 40%;
@@ -11037,4 +11037,32 @@ p {
   z-index: 1030; /* Asegúrate de que esté por encima de otros elementos */
   /*background-color: #f8f9fa;  Fondo blanco para el botón fijo */
   padding: 10px 0;
+}*/
+.fixed-right-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  transform: translateY(-50%)
+  z-index: 1030; /* Asegúrate de que esté por encima de otros elementos */
+  /*background-color: #f8f9fa;  Fondo blanco para el botón fijo */
+  padding: 10px 0;
+}
+
+.custom-button {
+    white-space: normal;
+    width: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.custom-button .custom-icon {
+    font-size: 1.5em; /* Ajusta el tamaño del icono */
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.custom-button .button-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
 }
