@@ -11029,7 +11029,7 @@ p {
 }
 
 /* agregado por mi */
-/*.fixed-right-button {
+.fixed-right-button {
   position: fixed;
   right: 3%;
   top: 40%;
@@ -11037,7 +11037,8 @@ p {
   z-index: 1030; /* Asegúrate de que esté por encima de otros elementos */
   /*background-color: #f8f9fa;  Fondo blanco para el botón fijo */
   padding: 10px 0;
-}*/
+}
+/*
 .fixed-right-button {
     position: fixed;
     right: 20px;
@@ -11066,3 +11067,4 @@ p {
     vertical-align: middle;
     text-align: left;
 }
+*/
